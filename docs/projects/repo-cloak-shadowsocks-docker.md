@@ -3,6 +3,17 @@ id: repo-cloak-shadowsocks-docker
 title: Cloak Shadowsocks Docker
 sidebar_label: Cloak Shadowsocks Docker
 ---
+:::important
+
+The repository of this docs is on GitHub https://github.com/mohsenmottaghi/cloak-shadowsocks-docker
+
+:::
+
+:::caution
+
+This docs is not ready
+
+:::
 
 # Cloak with Shadowsocks on Docker
 

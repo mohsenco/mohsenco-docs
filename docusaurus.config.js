@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Mohsen Mottaghi',
   tagline: 'DevOps and Cloud engineer',
-  url: 'https://mohsen.co',
+  url: 'https://docs.mohsen.co',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'MOHSEN', // Usually your GitHub org/user name.
@@ -16,7 +16,12 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          href: 'https://mohsen.co',
+          label: 'Home',
+          position: 'left',
+        },
+        {
+          to: 'docs/index',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -52,10 +57,10 @@ module.exports = {
         {
           title: 'Links',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions',
-            },
+            // {
+            //   label: 'Stack Overflow',
+            //   href: 'https://stackoverflow.com/questions',
+            // },
             // {
             //   label: 'Discord',
             //   href: 'https://discordapp.com',
@@ -77,11 +82,19 @@ module.exports = {
               label: 'Twitter',
               href: 'https://twitter.com/motmohsen',
             },
+            {
+              label: 'Instagram',
+              href: 'https://instagram.com/mohsenmottaghi_',
+            },
+            {
+              label: 'Telegram',
+              href: 'https://t.me/mohsenmottaghi',
+            },
           ],
         },
       ],
       // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with`,
+      copyright: `Copyright © ${new Date().getFullYear()} MOHSEN`,
     },
   },
   presets: [
@@ -91,7 +104,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/mohsenco/mohsendocs.github.io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
