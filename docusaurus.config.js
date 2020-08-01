@@ -14,7 +14,7 @@ module.exports = {
         // src: 'img/logo.svg',
         src: 'img/mohsen-logo-blue.png',
       },
-      links: [
+      items: [
         {
           href: 'https://mohsen.co',
           label: 'Home',
